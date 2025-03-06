@@ -1,0 +1,253 @@
+/*Estilos generales*/
+a{
+     text-decoration: none;
+}
+body{
+    background-color: rgba(10, 32, 99, 0.241)
+    
+}
+
+*{
+    font-family: "Poppins", serif;
+    
+}
+.fondopag{
+    background-image: url(../imgs/fondoweb.avif);
+    width: 100%; 
+    height: 100%;
+  background-attachment: fixed;
+  
+
+}
+
+
+
+
+/*Header---------------------------------------------------------------------- */
+
+.logoprincynavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     backdrop-filter: blur(10px);
+    
+}
+/*main --------------------------------------------------------------------------*/
+.conteinerboot{
+    margin: 25px auto; 
+    width: 700px; 
+    
+}
+.posicion {
+    margin: 0px; 
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+    
+
+}
+.contenedormenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.textofot{
+    margin: 10px;
+    padding: 10px;color: #f4f0f0;
+}
+.menuinicio img{
+    background-color: rgba(2, 2, 48, 0.189);
+    padding: 15px;
+    margin: 70px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px;
+    width: 70vh;
+    height: 70vh;
+ }
+
+
+.logoprincynavbar .navbar a{
+    color:rgb(253, 253, 253) ;
+    font-weight: 600;
+}
+.imgtrab{
+    width: 50%;
+    
+    margin: 50px;
+}
+.logotip{
+    width: 250px;
+}
+.navbar{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    gap: 15px
+
+}
+
+.colortitulo{ margin: 0px; width: 90%; color: aliceblue; background-color: rgba(10, 32, 99, 0.329);box-shadow: 0px 0px 10px; border-radius: 20px; padding: 40px;
+    margin: 20px;
+    
+}
+
+.sobrenos{
+   display: flex;
+    width: 200vh;
+    height: 50vh;
+    margin: 50px;
+    
+}
+
+.ancho70{
+    width: 70%;
+    margin: 50px
+}
+
+.parrafoclientes{
+    width: 80%; color: aliceblue; background-color: rgba(10, 32, 99, 0.329);box-shadow: 0px 0px 10px; border-radius: 50px; padding: 40px;
+    margin: 20px;
+}
+.imagencontacto{
+    width: 7%;
+    height: 72px;
+    
+}
+.subtituloservicios{
+    width: 90%;
+}
+
+
+.servicios{
+    font-size: 20px;   color: rgb(251, 251, 251); display: flex; gap: 50px; margin-top: 40px; padding: 5px;
+}
+
+.servicios li {
+    font-size: 18px;
+    margin-bottom: 10px;  
+}
+.centrar {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    position: relative;
+    top: -50px;               
+    margin-top: 20px;         
+}
+
+    
+
+
+
+
+/*footer -----------------------------------------------------------------------------------*/
+.subtitulofooter{
+    color: rgb(255, 255, 255);
+  
+}
+.fondopag {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+footer {
+    padding: 5px 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer .subtitulofooter {
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+footer .icono {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+footer .icono {
+    width: 24px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+footer .icono:hover {
+    transform: scale(1.2); 
+}
+/*media queries-----------------------------------------------------------------*/
+@media (max-width: 380px) {
+    
+    .logoprincynavbar {
+        flex-direction: column;
+        text-align: center;
+        width: 40%;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav a {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+    .imagencontacto {
+        max-width: 50%;
+      
+
+    }
+    .menuinicio img.alturaimg {
+        width: 80%;
+        height: auto;
+    }
+    .logotip {
+        width: 150px;
+        height: auto;
+    }
+
+    .colortitulo {
+        font-size: 20px;
+        width: 40%;
+    }
+    footer {
+        padding: 1px 0; 
+    }
+
+    footer .subtitulofooter {
+        font-size: 10px; 
+        margin-bottom: 3px; 
+    }
+    .parrafoclientes {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    footer a {
+        font-size: 9px; 
+        margin: 0 2px; 
+    }
+    .contenedormenu{
+        flex-direction: column;
+    }
+}
+
+   
+
+
+
+
+
