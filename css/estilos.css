@@ -187,7 +187,7 @@ footer .icono:hover {
     transform: scale(1.2); 
 }
 /*media queries-----------------------------------------------------------------*/
-@media (max-width: 380px) {
+@media (max-width: 500px) {
     
     .logoprincynavbar {
         flex-direction: column;
