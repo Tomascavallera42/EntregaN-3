@@ -1,0 +1,40 @@
+
+@use "./variables" as variables;
+
+
+
+.subtitulofooter{
+    color: variables.$blanco;
+  
+
+}
+.fondopag {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+footer {
+    padding: 5px 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer  {
+    .subtitulofooter{ font-size: 12px;
+    margin-bottom: 5px;
+
+}}
+
+footer  {
+    .icono{ 
+    display: flex;
+    justify-content: left;
+    gap: 10px; 
+}
+
+}
