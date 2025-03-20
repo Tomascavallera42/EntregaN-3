@@ -125,10 +125,9 @@ body{
 .servicios{
     font-size: 20px;   color: rgb(251, 251, 251); display: flex; gap: 50px; margin-top: 40px; padding: 5px;
 }
-
 .servicios li {
     font-size: 18px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
 }
 .centrar {
     display: flex;
@@ -140,7 +139,10 @@ body{
 }
 
     
-
+.centrar.servicios button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(10, 10, 10, 0.626);
+}
 
 
 
@@ -174,7 +176,7 @@ footer .subtitulofooter {
 footer .icono {
     display: flex;
     justify-content: left;
-    gap: 10px;
+    gap: 10px; 
 }
 
 footer .icono {
@@ -186,12 +188,15 @@ footer .icono {
 footer .icono:hover {
     transform: scale(1.2); 
 }
+ 
+    
+
 /*media queries-----------------------------------------------------------------*/
 @media (max-width: 500px) {
     
     .logoprincynavbar {
         flex-direction: column;
-        text-align: center;
+        
         width: 40%;
     }
     
@@ -219,11 +224,18 @@ footer .icono:hover {
         width: 150px;
         height: auto;
     }
+    .menuinicio .colortitulo{
+        width: 40%;
+       font-size: 20px;
+    }
+    .menuinicio{
+        flex-direction: column;
+    }
 
     .colortitulo {
         font-size: 20px;
-        width: 40%;
-    }
+        width: 40%;   }
+    
     footer {
         padding: 1px 0; 
     }
@@ -240,14 +252,92 @@ footer .icono:hover {
         font-size: 9px; 
         margin: 0 2px; 
     }
-    .contenedormenu{
-        flex-direction: column;
+    .anim{
+        margin: 0 auto;
     }
+  
+.clie{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    padding: 0px;
+
+} 
+.clie img{ margin: 0 auto;
+    width: 170%;
+
+}
+.clie p{ width: 170%; color: aliceblue; background-color: rgba(10, 32, 99, 0.329);box-shadow: 0px 0px 10px; border-radius: 20px; padding: 20px;
+    margin: 0 auto;
+}
+.conteinerboot{
+    width: 70%;
+   margin-top: 40px;
+    
 }
 
-   
+
+
+.subtituloservicios{
+    margin: 0px; width: 90%; color: aliceblue; background-color: rgba(10, 32, 99, 0.329);box-shadow: 0px 0px 10px; border-radius: 20px; padding: 40px;
+    margin: 20px;
+}
+
+
+.servicios{
+    margin: 20px;  
+} 
+.servicios li{
+    font-size: 15px;
+}
+
+
+.sobrenos{
+    width: 70% ; height: auto;
+}
+.indd img{
+    background-color: rgba(2, 2, 48, 0.189);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px;
+    width: 40%;
+    height: 40%;
+    margin-left: 40px;
+    
 
 
 
 
+} 
 
+ .navbar-toggler{
+    color: aliceblue;
+ }   
+ .parrafoclientes .parraf{ border-radius: 0px;
+
+ }
+}
+
+
+
+ /* animaciones -------------------------------------------------------*/
+
+    
+ .indd{
+    position: relative;
+    overflow: hidden;
+ }
+ .anim{
+transition: 2s;
+ }
+ .anim:hover{
+    transform: scale(1.1);
+ }    
+ .centrar.servicios button{
+transition: 1s;
+ }
+ .centrar.servicios button:hover{
+    transform: scale(1.1);
+ }
