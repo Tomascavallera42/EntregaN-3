@@ -272,7 +272,7 @@ footer .icono:hover {
     margin: 0 auto;
 }
 .conteinerboot{
-    width: 70%;
+    width: 50%;
    margin-top: 40px;
     
 }
@@ -336,7 +336,7 @@ transition: 2s;
     transform: scale(1.1);
  }    
  .centrar.servicios button{
-transition: 1s;
+transition: 1s; width: 40%;
  }
  .centrar.servicios button:hover{
     transform: scale(1.1);
